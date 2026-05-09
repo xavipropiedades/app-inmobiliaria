@@ -8,6 +8,10 @@ AppSheet, GitHub y Cloudflare Pages.
 <p><strong>Ejemplo:</strong> https://inmobiliariapro.pages.dev/</p>
 
 <h2>Paso a paso</h2>
+<p>
+<strong>⏱️ Aproximadamente 30 minutos de video y 2 horas de implementación.</strong>
+</p>
+
 <ul>
   <li>
     <a href="https://www.youtube.com/watch?v=5i9vbEnJ1CI&t=302s" target="_blank">
@@ -54,6 +58,3 @@ Incluye conexión automática con Google Sheets para administrar propiedades
 sin necesidad de programar.
 </p>
 
-<p>
-<strong>⏱️ Aproximadamente 30 minutos de video y 2 horas de implementación.</strong>
-</p>
