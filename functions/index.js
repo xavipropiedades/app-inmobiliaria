@@ -197,7 +197,7 @@ function generarPlantilla(tarjetas, total, c) {
                 <ul>
                     <li><a href="index">Propiedades</a></li>
                     <li><a href="index#nosotros">Nosotros</a></li>
-                    <li><a href="https://wa.link/9ovt41" class="cta-boton" target="_blank"><i class="houzez-icon icon-messaging-whatsapp" aria-hidden="true"></i>Contacto</a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=593959652736&text=Hola!%20me%20gustar%C3%ADa%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20las%20propiedades%20que%20tienen%20disponibles%2C%20gracias" class="cta-boton" target="_blank"><i class="houzez-icon icon-messaging-whatsapp" aria-hidden="true"></i>Contacto</a></li>
                 </ul>
             </nav>
         </div>     
