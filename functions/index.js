@@ -337,7 +337,7 @@ function generarPlantilla(tarjetas, total, c) {
 
         	if (btnContacto) {
             	const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-            	const waBase = isMobile ? 'https://api.whatsapp.com/' : 'https://web.whatsapp.com/';
+            	const waBase = isMobile ? 'https://wa.link/9ovt41' : 'https://wa.link/9ovt41';
             	btnContacto.href = waBase + 'send?phone=' + miTelefono + '&text=' + mensaje;
         	}
 
