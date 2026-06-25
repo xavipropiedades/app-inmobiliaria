@@ -197,7 +197,7 @@ function generarPlantilla(tarjetas, total, c) {
                 <ul>
                     <li><a href="index">Propiedades</a></li>
                     <li><a href="index#nosotros">Nosotros</a></li>
-                    <li><a href="https://wa.me/${c.waLimpio}?text=${c.mensajeWA}" class="cta-boton" target="_blank"><i class="houzez-icon icon-messaging-whatsapp" aria-hidden="true"></i>Contacto</a></li>
+                    <li><a href="https://wa.link/9ovt41" class="cta-boton" target="_blank"><i class="houzez-icon icon-messaging-whatsapp" aria-hidden="true"></i>Contacto</a></li>
                 </ul>
             </nav>
         </div>     
@@ -330,19 +330,11 @@ function generarPlantilla(tarjetas, total, c) {
     </footer>
 	
 	<script>
-    	document.addEventListener('DOMContentLoaded', () => {
-        	const btnContacto = document.querySelector('.cta-boton');
-        	const miTelefono = "${c.waLimpio}";
-        	const mensaje = "${c.mensajeWA}";
-
-        	if (btnContacto) {
-            	const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-            	const waBase = isMobile ? 'https://wa.link/9ovt41' : 'https://wa.link/9ovt41';
-            	btnContacto.href = waBase + 'send?phone=' + miTelefono + '&text=' + mensaje;
-        	}
-
-    	});
-	</script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // El enlace directo de wa.link ya está puesto en el HTML.
+        // No es necesario sobrescribirlo dinámicamente con la API.
+    });
+</script>
 
 
 
